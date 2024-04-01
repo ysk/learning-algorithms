@@ -1,0 +1,18 @@
+# coding: utf-8
+
+data = [
+    [0, 1, 1, 0, 0],
+    [1, 0, 1, 1, 0],
+    [1, 1, 0, 0, 1],
+    [0, 1, 0, 0, 1],
+    [0, 0, 1, 1, 0]
+]
+
+node = ["(0)", "(1)", "(2)", "(3)", "(4)"]
+
+
+for y in range(5):
+    for x in range(y, 5):
+        if data[x][y] == 1 and data[x][y] == 1:
+            print(node[y] + "<->" + node[x])
+
