@@ -11,9 +11,7 @@ int main(){
 
   for (int i=0; i<N; ++i){
     ++count;
-  }
-  
-  
+  }  
 }
 
 //https://paiza.io/projects/m9x0CHu5UGC5KCAKKS_6Kw?language=cpp
